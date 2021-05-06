@@ -46,6 +46,23 @@ public class LineComparisonCompute
 			 System.out.println("lines are equal");
 		 }
 	}
+	public void checkUC4()
+	{
+		System.out.println("UC4 output : ");
+		int res=Integer.compare(length1, length2);
+		if(res<0)
+		{
+			System.out.println("line1 is less than line2");
+		}
+		 else if(res>0)
+		 {
+			 System.out.println("line1 is greater than line2");
+		 }
+		 else
+		 {
+			 System.out.println("lines are equal");
+		 }
+	}
 	public static void main(String[] args)
 	{
 		System.out.println("Welcome to Comparison Computation Program ");
@@ -56,6 +73,8 @@ public class LineComparisonCompute
 		l1.checkEqualUC2();
 		//UC3
 		l1.checkGrtLesUC3();
+		//UC4
+		l1.checkUC4();
 		
 	}
 
