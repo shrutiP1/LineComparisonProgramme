@@ -30,6 +30,22 @@ public class LineComparisonCompute
 			 System.out.println("Two lines are not equal");
 		 }
 	}
+	public void checkGrtLesUC3()
+	{
+		System.out.println("UC3 output:");
+		 if(length1<length2)
+		 {
+			 System.out.println("line1 is less than line2");
+		 }
+		 else if(length1>length2)
+		 {
+			 System.out.println("line1 is greater than line2");
+		 }
+		 else
+		 {
+			 System.out.println("lines are equal");
+		 }
+	}
 	public static void main(String[] args)
 	{
 		System.out.println("Welcome to Comparison Computation Program ");
@@ -38,6 +54,8 @@ public class LineComparisonCompute
 		l1.calLengthUC1();
 		//UC2
 		l1.checkEqualUC2();
+		//UC3
+		l1.checkGrtLesUC3();
 		
 	}
 
