@@ -50,10 +50,10 @@ public class LineComparisonCompute
 	{
 		System.out.println("UC4 output : ");
 		int res=Integer.compare(length1, length2);
-		if(res<0)
-		{
+		 if(res<0)
+		 {
 			System.out.println("line1 is less than line2");
-		}
+		 }
 		 else if(res>0)
 		 {
 			 System.out.println("line1 is greater than line2");
