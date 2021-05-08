@@ -49,6 +49,17 @@ public class LineComparisonCompute
 	public void checkUC4()
 	{
 		System.out.println("UC4 output : ");
+		Integer num1=Integer.valueOf(length1);
+		Integer num2=Integer.valueOf(length2);
+		 boolean res=num1.equals(num2);
+		 if(res==true)
+		 {
+			 System.out.println("two lines are equal");
+		 }
+		 else
+		 {
+			 System.out.println("Two lines are not equal");
+		 }
 		int res=Integer.compare(length1, length2);
 		if(res<0)
 		{
